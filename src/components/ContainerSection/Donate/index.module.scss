@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.donateSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 4rem 0 5rem 0;
+  border-radius: 10px;
+  color: #ffffff;
+  img {
+    margin: 1rem 1rem 1rem 1rem;
+    width: 130vh;
+    border-radius: 10px;
+    box-shadow: -10px 30px 0px 5px #333333;
+  }
+
+  h2 {
+    margin: 10rem 0 0 1rem;
+    font-size: 5rem;
+    text-align: center;
+
+    button {
+      padding: 1rem;
+      margin: 3rem 0 0 0;
+      font-size: 2rem;
+      border-radius: 20px;
+      background-color: transparent;
+      color: #ffffff;
+      border: solid #ffffff 1px;
+      animation: 1s ease-in-out 1s infinite alternate zoom;
+    }
+
+    @keyframes zoom {
+      from {
+        scale: (1.1);
+      }
+
+      to {
+        scale: (1);
+      }
+    }
+  }
+
+  h3 {
+    margin: 3rem 0 0 0;
+    padding: 2rem;
+    font-size: 4rem;
+    transition: 0.1s;
+    font-family: "Protest Revolution", sans-serif;
+    transform: skew(-5deg, -5deg);
+  }
+
+  p {
+    margin: 1rem 1rem 1rem 0rem;
+    padding: 2rem 2rem 2rem 2rem;
+    font-style: oblique;
+    border-radius: 50px;
+    transition: 1s;
+    font-size: large;
+    text-align: right;
+  }
+
+  p:hover {
+    background-color: #333333;
+    border-radius: 50px;
+    scale: (1.1);
+  }
+}
+
+@media (max-width: 900px) {
+  .donateSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem 0 5rem 0;
+    border-radius: 10px;
+    color: #ffffff;
+
+    h2 {
+      margin: 5rem 0 0 0;
+      font-size: 5rem;
+
+      button {
+        font-size: 2.5rem;
+        margin: 2rem 0 3rem 0;
+      }
+    }
+
+    h3 {
+      margin: 6rem 0 0 -3rem;
+      padding: 4rem;
+      font-size: 5rem;
+      transition: 0.1s;
+      font-family: "Protest Revolution", sans-serif;
+      transform: skew(-5deg, -5deg);
+
+      ul {
+        font-size: 2rem;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        list-style: none;
+        padding: 1rem 0 0 1rem;
+        margin: 1rem 0 0 0;
+        transition: 2s;
+      }
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin: 0 0 0 -6rem;
+      width: 100vh;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .donateSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0 5rem 0;
+    border-radius: 10px;
+    color: #ffffff;
+
+    img {
+      width: 70rem;
+    }
+
+    h2 {
+      margin: 5rem 0 0 0;
+      font-size: 8rem;
+
+      button {
+        font-size: 4rem;
+      }
+    }
+
+    h3 {
+      text-align: center;
+      margin: 0 0 0 0;
+      padding: 4rem;
+      font-size: 5rem;
+      transition: 0.1s;
+      font-family: "Protest Revolution", sans-serif;
+      transform: skew(0deg, 0deg);
+    }
+
+    p {
+      font-size: 2rem;
+      margin: 0 0 0 0;
+      width: 200vh;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .donateSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0 5rem 0;
+    border-radius: 10px;
+    color: #ffffff;
+
+    img {
+      width: 70rem;
+    }
+
+    h2 {
+      margin: 5rem 0 0 0;
+      font-size: 9rem;
+
+      button {
+        font-size: 5rem;
+      }
+    }
+
+    h3 {
+      text-align: center;
+      margin: 0 0 0 0;
+      padding: 4rem;
+      font-size: 7rem;
+      transition: 0.1s;
+      font-family: "Protest Revolution", sans-serif;
+      transform: skew(0deg, 0deg);
+    }
+
+    p {
+      font-size: 3rem;
+      margin: 0 0 0 0;
+      width: 200vh;
+      text-align: center;
+    }
+  }
+}

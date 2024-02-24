@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logoFooter {
+  padding: 1rem;
+  margin: 1rem;
+  width: 14rem;
+  height: 13rem;
+  transition: 0.5s;
+}
+
+.logoFooter:hover {
+  filter: brightness(3);
+}
+
+.footer {
+  display: flex;
+  min-height: 45vh;
+  background: linear-gradient(to top, #888888, #900000);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  justify-content: space-around;
+
+  h1 {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 1rem 2rem 1rem;
+    border-bottom: solid #ffffff 1px;
+  }
+
+  p {
+    padding: 1rem;
+    margin: 1rem 1rem 1rem 3.5rem;
+    width: 50vh;
+    text-align: center;
+  }
+  a {
+    margin: 1rem 1rem 1rem 1rem;
+    outline: none;
+    text-decoration: none;
+    border: none;
+  }
+}
+
+.facebookIcon {
+  width: 10vh;
+  transition: 0.5s;
+}
+
+.instagramIcon {
+  width: 10vh;
+  transition: 0.5s;
+}
+
+.twitterIcon {
+  width: 10vh;
+  transition: 0.5s;
+}
+
+.facebookIcon:hover {
+  scale: (1.1);
+}
+
+.instagramIcon:hover {
+  scale: (1.1);
+}
+
+.twitterIcon:hover {
+  scale: (1.1);
+}
+
+.telephoneIcon {
+  width: 10vh;
+}
+
+.emailIcon {
+  width: 10vh;
+}
+.locationIcon {
+  width: 10vh;
+}
+
+.contacts {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #888888;
+
+  h2 {
+    width: 60vh;
+    margin: 1rem 1rem 2rem 1rem;
+  }
+
+  a {
+    color: #202020;
+    outline: none;
+    text-decoration: none;
+    border: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    min-width: 1200px;
+  }
+  .contacts {
+    min-width: 1200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer {
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      padding: 1rem;
+      margin: 1rem 1rem 2rem 1rem;
+      border-bottom: solid #ffffff 1px;
+    }
+
+    p {
+      padding: 1rem;
+      margin: 1rem 1rem 1rem 3rem;
+      width: 80vh;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .facebookIcon {
+      width: 15vh;
+      transition: 0.5s;
+    }
+
+    .instagramIcon {
+      width: 15vh;
+      transition: 0.5s;
+    }
+
+    .twitterIcon {
+      width: 15vh;
+      transition: 0.5s;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    h1 {
+      text-align: center;
+      font-size: 4rem;
+      padding: 1rem;
+      margin: 1rem 1rem 2rem 1rem;
+      border-bottom: solid #ffffff 1px;
+    }
+
+    p {
+      padding: 1rem;
+      margin: 1rem 1rem 1rem 3rem;
+      width: 100vh;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    .facebookIcon {
+      margin: 1rem 0 0 5rem;
+      width: 15vh;
+      transition: 0.5s;
+    }
+
+    .instagramIcon {
+      margin: 1rem 0 0 5rem;
+      width: 15vh;
+      transition: 0.5s;
+    }
+
+    .twitterIcon {
+      text-align: center;
+      margin: 1rem 0 0 5rem;
+      width: 15vh;
+      transition: 0.5s;
+    }
+  }
+  .contacts {
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      width: 60vh;
+      margin: 1rem 1rem 2rem 1rem;
+    }
+  }
+
+  .telephoneIcon {
+    width: 13vh;
+  }
+
+  .emailIcon {
+    width: 13vh;
+  }
+  .locationIcon {
+    width: 13vh;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer {
+    h1 {
+      text-align: center;
+      font-size: 5rem;
+      padding: 1rem;
+      margin: 1rem 1rem 2rem 1rem;
+      border-bottom: solid #ffffff 1px;
+    }
+
+    p {
+      padding: 1rem;
+      margin: 1rem 1rem 1rem 3rem;
+      width: 110vh;
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    .facebookIcon {
+      margin: 5rem 0 0 5rem;
+      width: 20vh;
+      transition: 0.5s;
+    }
+
+    .instagramIcon {
+      margin: 5rem 0 0 5rem;
+      width: 20vh;
+      transition: 0.5s;
+    }
+
+    .twitterIcon {
+      text-align: center;
+      margin: 5rem 0 0 5rem;
+      width: 20vh;
+      transition: 0.5s;
+    }
+  }
+}

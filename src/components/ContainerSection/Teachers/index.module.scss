@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.teachersSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 4rem 0 5rem 0;
+  border-radius: 10px;
+  color: #ffffff;
+  img {
+    margin: 2rem 1rem 1rem 2rem;
+    width: 120vh;
+    border-radius: 50px;
+    box-shadow: -10px 30px 0px 5px #333333;
+  }
+
+  h2 {
+    margin: 12rem 0 0 1rem;
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  h3 {
+    margin: 3rem 0 0 0;
+    padding: 4rem;
+    font-size: 5rem;
+    transition: 0.1s;
+    font-family: "Protest Revolution", sans-serif;
+    transform: skew(-5deg, -5deg);
+
+    ul {
+      font-size: 2rem;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      list-style: none;
+      padding: 1rem 0 0 1rem;
+      margin: 1rem 0 0 0;
+      transition: 2s;
+    }
+  }
+
+  p {
+    margin: 5rem 3rem 1rem 1rem;
+    padding: 2rem 2rem 3rem 2rem;
+    font-style: oblique;
+    font-size: large;
+    text-align: right;
+    border-radius: 50px;
+    transition: 1s;
+  }
+  p:hover {
+    background-color: #333333;
+    border-radius: 50px;
+    scale: (1.1);
+  }
+}
+
+@media (max-width: 1250px) {
+  .teachersSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem 0 5rem 0;
+    border-radius: 10px;
+    color: #ffffff;
+
+    h2 {
+      margin: 12rem 0 0 0;
+      font-size: 4rem;
+    }
+
+    h3 {
+      margin: 3rem 0 0 -5rem;
+      padding: 4rem;
+      font-size: 5rem;
+      transition: 0.1s;
+      font-family: "Protest Revolution", sans-serif;
+      transform: skew(-5deg, -5deg);
+
+      ul {
+        font-size: 2rem;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        list-style: none;
+        padding: 1rem 0 0 1rem;
+        margin: 1rem 0 0 0;
+        transition: 2s;
+      }
+    }
+
+    p {
+      margin: 0 0 0 -3rem;
+      width: 100vh;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .teachersSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem 0 5rem 0;
+    border-radius: 10px;
+    color: #ffffff;
+
+    h2 {
+      margin: 12rem 0 0 0;
+      font-size: 4rem;
+    }
+
+    h3 {
+      margin: 6rem 0 0 -5rem;
+      padding: 4rem;
+      font-size: 5rem;
+      transition: 0.1s;
+      font-family: "Protest Revolution", sans-serif;
+      transform: skew(-5deg, -5deg);
+
+      ul {
+        font-size: 2rem;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        list-style: none;
+        padding: 1rem 0 0 1rem;
+        margin: 1rem 0 0 0;
+        transition: 2s;
+      }
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin: 0 0 0 -3rem;
+      width: 100vh;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .teachersSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0 5rem 0;
+    border-radius: 10px;
+    color: #ffffff;
+
+    img {
+      width: 70rem;
+    }
+
+    h2 {
+      margin: 5rem 0 0 0;
+      font-size: 8rem;
+    }
+
+    h3 {
+      text-align: center;
+      margin: 3rem 0 0 -5rem;
+      padding: 4rem;
+      font-size: 5rem;
+      transition: 0.1s;
+      font-family: "Protest Revolution", sans-serif;
+      transform: skew(0deg, 0deg);
+
+      ul {
+        font-size: 3rem;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        list-style: inside;
+        padding: 1rem 0 0 1rem;
+        margin: 1rem 0 0 0;
+        transition: 2s;
+      }
+    }
+
+    p {
+      font-size: 2rem;
+      margin: 0 0 0 0;
+      width: 200vh;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .teachersSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0 5rem 0;
+    border-radius: 10px;
+    color: #ffffff;
+
+    img {
+      width: 70rem;
+    }
+
+    h2 {
+      margin: 5rem 0 0 0;
+      font-size: 10rem;
+    }
+
+    h3 {
+      text-align: center;
+      margin: 3rem 0 0 -5rem;
+      padding: 4rem;
+      font-size: 7rem;
+      transition: 0.1s;
+      font-family: "Protest Revolution", sans-serif;
+      transform: skew(0deg, 0deg);
+
+      ul {
+        font-size: 4rem;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        list-style: inside;
+        padding: 1rem 0 0 1rem;
+        margin: 1rem 0 0 0;
+        transition: 2s;
+      }
+    }
+
+    p {
+      font-size: 3rem;
+      margin: 0 0 0 0;
+      width: 200vh;
+      text-align: center;
+    }
+  }
+}

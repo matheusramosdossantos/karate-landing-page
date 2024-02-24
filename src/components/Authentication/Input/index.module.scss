@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.input1 {
+  padding: 1rem 2rem 1rem 1rem;
+  border: solid #ffffff 0px;
+  border-radius: 10rem;
+  border: solid transparent 1px;
+}
+
+.questionInput {
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0.5rem 1rem 1.1rem 1rem;
+  margin: 3rem 0 1rem 0;
+  width: 150vh;
+
+  border-radius: 30px;
+  border: solid transparent 1px;
+}
+
+.donationInput {
+  padding: 1rem 2rem 1rem 1rem;
+  border: solid #ffffff 0px;
+  border-radius: 10rem;
+  border: solid transparent 1px;
+}
+
+.cardInfoInput {
+  margin: 1rem 0 1rem 0;
+  padding: 0.1rem;
+  border-radius: 30px;
+  border: solid transparent 1px;
+}
+
+@media (max-width: 1440px) {
+  .questionInput {
+    font-size: 2rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 0.5rem 1rem 1.1rem 1rem;
+    margin: 3rem 0 1rem 0;
+    width: 1100px;
+    border-radius: 30px;
+    border: solid transparent 1px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .questionInput {
+    font-size: 2rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 0.5rem 1rem 1.1rem 1rem;
+    margin: 3rem 0 1rem 0;
+    width: 1000px;
+    border-radius: 30px;
+    border: solid transparent 1px;
+  }
+}
+
+@media (max-width: 900px) {
+  .input1 {
+    padding: 1rem 2rem 1rem 1rem;
+    border: solid #ffffff 0px;
+    border-radius: 10rem;
+    border: solid transparent 1px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .donationInput {
+    padding: 1rem 2rem 1rem 1rem;
+    border: solid #ffffff 0px;
+    border-radius: 10rem;
+    border: solid transparent 1px;
+    width: 150vh;
+    font-size: 2rem;
+  }
+  .paymentRadioInput {
+    margin: 1rem;
+    height: 2rem;
+    width: 1rem;
+  }
+
+  .cardInfoInput {
+    font-size: 1.5rem;
+    width: 100vh;
+    margin: 1rem 0 1rem 0;
+    padding: 0.1rem;
+    border-radius: 30px;
+    border: solid transparent 1px;
+  }
+}
+
+@media (max-width: 650px) {
+  .input1 {
+    padding: 1rem 2rem 1rem 1rem;
+    border: solid #ffffff 0px;
+    border-radius: 10rem;
+    border: solid transparent 1px;
+    font-size: 2rem;
+  }
+
+  .questionInput {
+    font-size: 3rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 0.5rem 1rem 1.1rem 1rem;
+    margin: 3rem 0 1rem 0;
+    width: 1000px;
+    border-radius: 30px;
+    border: solid transparent 1px;
+  }
+}
+
+@media (max-width: 550px) {
+  .donationInput {
+    padding: 1rem 2rem 1rem 1rem;
+    border: solid #ffffff 0px;
+    border-radius: 10rem;
+    border: solid transparent 1px;
+    width: 150vh;
+    font-size: 3rem;
+  }
+  .paymentRadioInput {
+    margin: 1rem;
+    height: 3rem;
+    width: 2rem;
+  }
+
+  .cardInfoInput {
+    font-size: 2rem;
+    width: 120vh;
+    margin: 1rem 0 1rem 0;
+    padding: 0.1rem;
+    border-radius: 30px;
+    border: solid transparent 1px;
+  }
+}
+@media (max-width: 450px) {
+  .questionInput {
+    font-size: 4rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 0.5rem 1rem 1.1rem 1rem;
+    margin: 3rem 0 1rem 0;
+    width: 1000px;
+    border-radius: 30px;
+    border: solid transparent 1px;
+  }
+}

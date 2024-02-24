@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 1rem 0 0 4rem;
+  width: 20rem;
+  text-align: center;
+}
+
+.donationSectionForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.creditCardForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.pixForm {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 900px) {
+  .form1 {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 1rem 0 0 0rem;
+    width: 55rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 770px) {
+  .donationSectionForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .form1 {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 1rem 0 0 6rem;
+    width: 55rem;
+    text-align: center;
+  }
+  .FAQForm {
+    display: flex;
+    align-items: center;
+  }
+}

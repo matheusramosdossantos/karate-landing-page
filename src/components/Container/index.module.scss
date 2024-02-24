@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  padding: 1rem 2rem 1rem 5rem;
+  min-height: 100vh;
+  background-color: #906050;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #252525;
+  background: linear-gradient(to bottom, #906050, #905050, #902020);
+  overflow: hidden;
+  min-width: 1200px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem 1rem 5rem;
+  min-height: 30vh;
+  background: radial-gradient(circle, #905060, #902020, #252525);
+  border-top: #222222 double 5px;
+  border-bottom: #222222 double 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  padding: 3rem 1rem 3rem 1rem;
+  min-height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #252525;
+  background-color: #905060;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  border-bottom: #222222 double 5px;
+  transition: 2s;
+}
+
+.container4 {
+  padding: 3rem 1rem 1rem 1rem;
+  min-height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  background: radial-gradient(circle, #252525, #902020, #905060);
+  overflow: hidden;
+  border-bottom: double #252525 5px;
+}
+
+.container5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem 1rem 1rem;
+  min-height: 120vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  background: radial-gradient(circle, #905060, #902020, #252525);
+  overflow: hidden;
+  border-bottom: double #404040 5px;
+}
+
+.container6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem 3rem 1rem;
+  min-height: 120vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  background: url("src/styles/images/okinawafoto.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.containerDonationSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem 1rem 1rem;
+  min-height: 80vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  background: linear-gradient(to bottom, #906050, #905050, #900000);
+  overflow: hidden;
+}
+
+@media (max-width: 1350px) {
+  .container3 {
+    min-width: 1200px;
+  }
+  .container4 {
+    min-width: 1200px;
+  }
+}
+@media (max-width: 1200px) {
+  .container2 {
+    min-width: 1200px;
+  }
+  .container5 {
+    min-width: 1200px;
+  }
+  .container6 {
+    min-width: 1200px;
+  }
+  .containerDonationSection {
+    min-width: 1200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem 1rem 5rem;
+    min-height: 100vh;
+    background-color: #906050;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #252525;
+    background: linear-gradient(to bottom, #906050, #905050, #902020);
+    overflow: hidden;
+    min-width: 1200px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

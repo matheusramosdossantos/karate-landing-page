@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.strongLetter {
+  font-family: "Protest Revolution", sans-serif;
+  margin: -1rem 1rem 0 1rem;
+  color: #700000;
+  transition: 0.5s;
+  font-size: 7rem;
+}
+
+.strongLetter:hover {
+  filter: brightness(2);
+  scale: (1.1);
+}
+.titleContainer1 {
+  margin: 3rem 1rem 1rem 1rem;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.titleContainer2 {
+  padding: 1rem;
+  font-size: 4.5rem;
+  transition: 0.5s;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.oldOkinawaKarateParagraph {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.titleContainer3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  margin: 0 0 -1rem 0;
+  padding: 1.5rem;
+  color: #202020;
+  transition: 0.5s;
+  font-size: 5rem;
+  font-weight: 700;
+  background: linear-gradient(to bottom, #902020, #904550, #905060);
+}
+
+.titleContainer3:hover {
+  color: #ffffff;
+}
+
+.titleContainer4 {
+  padding: 0 3rem 1rem 1rem;
+  text-align: center;
+  font-size: 8rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.titleContainer5 {
+  padding: 1rem 3rem 1rem 3rem;
+  margin: 1rem 1rem 1rem 1rem;
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: linear-gradient(to top, #666666, #555555);
+  border-radius: 50px;
+}
+
+.titleContainer6 {
+  padding: 1rem 3rem 1rem 3rem;
+  margin: 1rem;
+  text-align: center;
+  font-size: 8rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media (max-width: 1350px) {
+  .titleContainer3 {
+    min-width: 1200px;
+  }
+}
+
+@media (max-width: 900px) {
+  .strongLetter {
+    margin: -1rem 1rem 0 1rem;
+    color: #700000;
+    font-size: 12rem;
+  }
+
+  .strongLetter:hover {
+    filter: brightness(2);
+    scale: (1.1);
+  }
+  .titleContainer1 {
+    text-align: center;
+    margin: 3rem 1rem 1rem 1rem;
+  }
+
+  .titleContainer3 {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .oldOkinawaKarateParagraph {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .strongLetter {
+    margin: -1rem 1rem 0 0rem;
+    color: #700000;
+    transition: 0.5s;
+    font-size: 16rem;
+  }
+
+  .strongLetter:hover {
+    filter: brightness(2);
+    scale: (1.1);
+  }
+  .titleContainer1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .titleContainer2 {
+    font-size: 6rem;
+    text-align: center;
+  }
+
+  .titleContainer3 {
+    font-size: 10rem;
+    text-align: center;
+  }
+
+  .titleContainer5 {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .titleContainer2 {
+    font-size: 8rem;
+  }
+  .oldOkinawaKarateParagraph {
+    font-size: 3rem;
+  }
+  .titleContainer4 {
+    font-size: 10rem;
+  }
+  .titleContainer5 {
+    font-size: 9rem;
+    display: block;
+  }
+}
+
+@media (max-width: 425px) {
+  .titleContainer1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .titleContainer3 {
+    font-size: 14rem;
+  }
+}

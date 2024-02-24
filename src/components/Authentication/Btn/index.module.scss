@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.submitFormButton {
+  margin: 2.5rem 4rem 1rem 4.5rem;
+  padding: 0.5rem;
+  width: 10rem;
+  font-size: 1.4rem;
+  background: linear-gradient(to bottom, #888888, #906040);
+  color: #ffffff;
+  border-radius: 10rem;
+  transition: 0.5s;
+  appearance: auto;
+  border: solid transparent 1px;
+}
+
+.submitFormButton:hover {
+  margin-left: 5.5rem;
+}
+
+.submitFormButtonRegistered {
+  margin: 2.5rem 4rem 1rem 4.5rem;
+  padding: 0.5rem;
+  width: 10rem;
+  font-size: 1.4rem;
+  background: linear-gradient(to bottom, #888888, #906040);
+  color: #ffffff;
+  border-radius: 10rem;
+  transition: 0.5s;
+  appearance: auto;
+  border: solid transparent 1px;
+}
+
+.FAQButton {
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
+  border-radius: 100%;
+  transition: 1s;
+  border: solid transparent 1px;
+}
+
+.FAQButton:hover {
+  scale: (1.1);
+}
+
+.questionButton {
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 1rem 1rem 0 0;
+  background-color: #ffffff;
+  border: solid transparent 2px;
+  height: 4rem;
+  transition: 0.5s;
+  border-radius: 100px;
+}
+
+.questionButton:hover {
+  scale: (1.1);
+}
+
+.donationSectionBtn {
+  margin: 3rem 4rem 0rem 4.5rem;
+  padding: 0.5rem;
+  width: 10rem;
+  font-size: 1.4rem;
+  background: linear-gradient(to bottom, #888888, #906040);
+  color: #ffffff;
+  border-radius: 10rem;
+  transition: 0.5s;
+  appearance: auto;
+  border: solid transparent 1px;
+  transition: 1s;
+}
+
+.donationSectionBtn:hover {
+  scale: (1.1);
+}
+
+.backButton2 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 1rem;
+  padding: 5px;
+  background-color: transparent;
+  border: solid 1px;
+  transition: 1s;
+}
+
+.backButton2:hover {
+  scale: (1.1);
+}
+
+.backButton1 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 1rem;
+  padding: 5px;
+  background-color: transparent;
+  border: solid 1px;
+  width: 38vh;
+  transition: 1s;
+}
+
+.backButton1:hover {
+  scale: (1.1);
+}
+
+@media (max-width: 1440px) {
+  .backButton1 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 1rem;
+    padding: 5px;
+    background-color: transparent;
+    border: solid 1px;
+    width: 49vh;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 900px) {
+  .submitFormButton {
+    margin: 2.5rem 4rem 1rem 4.5rem;
+    padding: 0.5rem;
+    width: 10rem;
+    font-size: 2rem;
+  }
+
+  .submitFormButtonRegistered {
+    margin: 2.5rem 4rem 1rem 4.5rem;
+    padding: 0.5rem;
+    width: 10rem;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .backButton1 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 1rem;
+    padding: 5px;
+    background-color: transparent;
+    border: solid 1px;
+    width: 49vh;
+    transition: 1s;
+  }
+
+  .backButton2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 1rem;
+    padding: 5px;
+    background-color: transparent;
+    border: solid 1px;
+    width: 49vh;
+    transition: 1s;
+  }
+
+  .donationSectionBtn {
+    margin: 3rem 4rem 0rem 4.5rem;
+    padding: 0.5rem;
+    width: 12rem;
+    font-size: 2rem;
+    background: linear-gradient(to bottom, #888888, #906040);
+    color: #ffffff;
+    border-radius: 10rem;
+    transition: 0.5s;
+    appearance: auto;
+    border: solid transparent 1px;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 650px) {
+  .submitFormButton {
+    margin: 2.5rem 4rem 1rem 4.5rem;
+    padding: 0.5rem;
+    width: 13rem;
+    font-size: 3rem;
+  }
+
+  .submitFormButtonRegistered {
+    margin: 2.5rem 4rem 1rem 4.5rem;
+    padding: 0.5rem;
+    width: 13rem;
+    font-size: 3rem;
+  }
+
+  .FAQButton {
+    margin: 3rem 1rem 1rem 1rem;
+    padding: 1rem;
+    border-radius: 100%;
+    transition: 1s;
+    border: solid transparent 1px;
+  }
+
+  .questionButton {
+    padding: 0 1rem 1rem 1rem;
+    font-size: 3rem;
+    height: 5rem;
+    border-radius: 40%;
+  }
+}
+
+@media (max-width: 550px) {
+  .backButton1 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    margin: 1rem;
+    padding: 5px;
+    background-color: transparent;
+    border: solid 1px;
+    width: 60vh;
+    transition: 1s;
+  }
+
+  .backButton2 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    margin: 1rem;
+    padding: 5px;
+    background-color: transparent;
+    border: solid 1px;
+    width: 60vh;
+    transition: 1s;
+  }
+
+  .donationSectionBtn {
+    margin: 3rem 4rem 0rem 4.5rem;
+    padding: 0.5rem;
+    width: 20rem;
+    font-size: 3.5rem;
+    background: linear-gradient(to bottom, #888888, #906040);
+    color: #ffffff;
+    border-radius: 10rem;
+    transition: 0.5s;
+    appearance: auto;
+    border: solid transparent 1px;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 425px) {
+  .submitFormButton {
+    margin: 4rem 4rem 1rem 4.5rem;
+    padding: 0.5rem;
+    width: 16rem;
+    font-size: 4rem;
+  }
+
+  .submitFormButtonRegistered {
+    margin: 4rem 4rem 1rem 4.5rem;
+    padding: 0.5rem;
+    width: 15rem;
+    font-size: 4rem;
+  }
+}

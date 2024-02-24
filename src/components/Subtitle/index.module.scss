@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.subtitleContainer1 {
+  margin: 0 0 0 1rem;
+  color: #ffffff;
+  width: 30rem;
+  rotate: 1s;
+  transition: 0.1s;
+}
+
+.subtitleContainer1:hover {
+  rotate: 2deg;
+}
+
+.subtitleContainer2 {
+  margin: 0 0 0 1rem;
+  color: #ffffff;
+  width: 30rem;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.donationPaymentSubtitle {
+  margin: 1rem 0 0 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 40vh;
+}
+
+@media (max-width: 900px) {
+  .subtitleContainer1 {
+    display: inline;
+    font-size: 2rem;
+    margin: 0 0 0 3rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .donationPaymentSubtitle {
+    margin: 1rem 0 0 1rem;
+    text-align: center;
+    font-size: 2rem;
+    width: 100vh;
+  }
+}
+
+@media (max-width: 550px) {
+  .donationPaymentSubtitle {
+    margin: 1rem 0 0 1rem;
+    text-align: center;
+    font-size: 3rem;
+    width: 120vh;
+  }
+}
+
+@media (max-width: 650px) {
+  .subtitleContainer1 {
+    display: inline;
+    font-size: 2.7rem;
+    margin: 0 0 0 1rem;
+  }
+  .subtitleContainer2 {
+    display: inline;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .subtitleContainer2 {
+    display: inline;
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .subtitleContainer1 {
+    font-size: 5rem;
+    margin: 0 0 0 1rem;
+  }
+}

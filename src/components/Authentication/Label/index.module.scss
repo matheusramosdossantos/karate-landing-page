@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.label1 {
+  font-size: 1.5rem;
+  padding: 1.5rem 0 0 0;
+}
+
+.donationLabel {
+  font-size: 1.5rem;
+  padding: 1.5rem 0 0 0;
+  text-align: center;
+}
+
+.labelPayment {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  width: 40vh;
+}
+
+.creditCardLabel {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 0 -1rem 0;
+}
+
+@media (max-width: 900px) {
+  .label1 {
+    padding: 1.5rem 0 0 0;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .donationLabel {
+    font-size: 3rem;
+    padding: 1.5rem 0 0 0;
+    text-align: center;
+  }
+
+  .labelPayment {
+    font-size: 3rem;
+    width: 100vh;
+  }
+
+  .creditCardLabel {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 0 -1rem 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .donationLabel {
+    padding: 1.5rem 0 0 0;
+    border: solid #ffffff 0px;
+    border-radius: 10rem;
+    border: solid transparent 1px;
+    width: 150vh;
+    font-size: 3.5rem;
+  }
+  .labelPayment {
+    font-size: 4rem;
+    width: 110vh;
+  }
+  .creditCardLabel {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 0 -1rem 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .label1 {
+    padding: 1.5rem 0 0 0;
+    font-size: 4rem;
+  }
+}

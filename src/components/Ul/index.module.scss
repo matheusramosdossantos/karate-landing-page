@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  p {
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: #404040;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    box-shadow: -10px 10px #252525;
+  }
+}
+
+@media (max-width: 700px) {
+  ul {
+    p {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  ul {
+    p {
+      font-size: 3rem;
+    }
+  }
+}

@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img1 {
+  width: 50rem;
+  height: auto;
+  margin: 4rem 1rem 0 0;
+  transition: 0.5s;
+}
+.img1:hover {
+  scale: (1.1);
+}
+
+.imgText1 {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: end;
+  color: #888888;
+  font-size: medium;
+  font-weight: 900;
+}
+
+.oldOkinawaKarateImg {
+  margin: 2rem 0 3rem 0;
+  height: 40rem;
+  border: double #404040 10px;
+  box-shadow: -30px 30px 5px 10px #404040;
+  transition: 1s;
+}
+
+.oldOkinawaKarateImg:hover {
+  box-shadow: -20px 30px 5px 10px #999999;
+  scale: (1.01);
+}
+
+.logoImageFAQ {
+  width: 15rem;
+  height: 14rem;
+}
+
+.buttonSearchIcon {
+  width: 2rem;
+}
+
+.questionButtonImg {
+  width: 3rem;
+  border-radius: 20%;
+}
+
+@media (max-width: 1400px) {
+  .img1 {
+    width: 35rem;
+    height: auto;
+    margin: 10rem 1rem 0 0;
+    transition: 0.5s;
+  }
+  .img1:hover {
+    scale: (1.1);
+  }
+}
+
+@media (max-width: 1200px) {
+  .img1 {
+    width: 25rem;
+    height: auto;
+    margin: 14rem 1rem 0 0;
+    transition: 0.5s;
+  }
+  .img1:hover {
+    scale: (1.1);
+  }
+}
+
+@media (max-width: 1000px) {
+  .img1 {
+    width: 40rem;
+    height: auto;
+    margin: 1rem 1rem 0 0;
+    transition: 0.5s;
+  }
+  .img1:hover {
+    scale: (1.1);
+  }
+}
+
+@media (max-width: 900px) {
+  .img1 {
+    width: 50rem;
+    height: auto;
+    margin: 0 1rem 0 0;
+    transition: 0.5s;
+  }
+  .img1:hover {
+    scale: (1.1);
+  }
+
+  .imgText1 {
+    text-align: end;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .oldOkinawaKarateImg {
+    margin: 2rem 0 3rem 0;
+    height: 50rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .img1 {
+    width: 70rem;
+    height: auto;
+    margin: 0 1rem 0 0;
+    transition: 0.5s;
+  }
+  .img1:hover {
+    scale: (1.1);
+  }
+
+  .imgText1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .buttonSearchIcon {
+    width: 4rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .oldOkinawaKarateImg {
+    margin: 2rem 0 3rem 0;
+    height: 52rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .imgText1 {
+    font-size: 4rem;
+  }
+}
