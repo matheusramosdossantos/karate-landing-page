@@ -1,0 +1,40 @@
+@import url("../../components/Container/index.module.scss");
+@import url("../../components/Title/index.module.scss");
+@import url("../../components/Subtitle/index.module.scss");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerItem {
+  margin: 1rem 5rem 1rem 5rem;
+}
+
+.strongLetter {
+  color: #700000;
+  transition: 0.5s;
+  font-size: 5rem;
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+
+.strongLetter:hover {
+  filter: brightness(2);
+  scale: 1.1;
+}
+
+@keyframes fadein {
+  from {
+    margin-left: 30%;
+    width: 300%;
+    opacity: 0%;
+  }
+  to {
+    margin-left: 3.2%;
+    width: 100%;
+    opacity: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
