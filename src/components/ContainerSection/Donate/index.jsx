@@ -24,7 +24,7 @@ export default function Donate({
         <h2>
           {title} <br />
           寄付 <br />
-          <Link to="/DonationSection">
+          <Link to="karate-landing-page/DonationSection">
             <button>Clique aqui</button>
           </Link>
         </h2>

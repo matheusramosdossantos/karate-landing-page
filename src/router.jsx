@@ -6,11 +6,11 @@ import Home from "./pages/Home";
 
 const router = createBrowserRouter([
   {
-    path: "/karate-landing-page",
+    path: "/karate-landing-page/",
     element: <Home />,
   },
   {
-    path: "/karatDonationSection",
+    path: "/DonationSection",
     element: <DonationSection />,
   },
 ]);
