@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/karate-landing-page",
     element: <Home />,
   },
   {
