@@ -16,7 +16,7 @@ export default function Footer({ id }) {
           <a href="#">
             <Img
               className={styles.logoFooter}
-              src={"src/styles/images/Japan-Transparent-PNG.png"}
+              src="public\images\Japan-Transparent-PNG.png"
               alt="Logo"
             />
           </a>
@@ -35,19 +35,19 @@ export default function Footer({ id }) {
             <h1>Siga-nos!</h1>
             <a href="">
               <Img
-                src="src/styles/images/footerIcons/facebook.png"
+                src="public\images\facebook.png"
                 className={styles.facebookIcon}
               />
             </a>
             <a href="">
               <Img
-                src="src/styles/images/footerIcons/instagram.png"
+                src="public\images\instagram.png"
                 className={styles.instagramIcon}
               />
             </a>
             <a href="">
               <Img
-                src="src/styles/images/footerIcons/twitter.png"
+                src="public\images\twitter.png"
                 className={styles.twitterIcon}
               />
             </a>
@@ -58,7 +58,7 @@ export default function Footer({ id }) {
         <div>
           <Img
             className={styles.telephoneIcon}
-            src={"src/styles/images/footerIcons/telefone.png"}
+            src="public\images\telefone.png"
             alt="Logo"
           />
           <h2>+81 98-886-2020</h2>
@@ -66,7 +66,7 @@ export default function Footer({ id }) {
         <div>
           <Img
             className={styles.emailIcon}
-            src={"src/styles/images/footerIcons/e-mail.png"}
+            src="public\images\e-mail.png"
             alt="Logo"
           />
           <h2>okinawakarate@email.com</h2>
@@ -74,7 +74,7 @@ export default function Footer({ id }) {
         <div>
           <Img
             className={styles.locationIcon}
-            src={"src/styles/images/footerIcons/sinal-de-localizacao.png"}
+            src="public\images\sinal-de-localizacao.png"
             alt="Logo"
           />
           <a

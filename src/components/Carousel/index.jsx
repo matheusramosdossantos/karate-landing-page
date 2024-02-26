@@ -14,19 +14,19 @@ import {
 
 const items = [
   {
-    src: "src/styles/images/carousel/okinawafoto1.jpg",
+    src: "public/images/okinawafoto1.jpg",
     altText: "Portão do Castelo Shuri",
     caption: "Shureimon",
     key: 1,
   },
   {
-    src: "src/styles/images/carousel/okinawafoto2.jpg",
+    src: "public/images/okinawafoto4.jpg",
     altText: "Novos karatecas sendo formados",
     caption: "Troca de faixa",
     key: 2,
   },
   {
-    src: "src/styles/images/carousel/okinawafoto3.jpg",
+    src: "public/images/okinawafoto3.jpg",
     altText: "Importância cultural em Okinawa",
     caption: "Apresentação numa avenida",
     key: 3,
