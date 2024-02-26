@@ -202,7 +202,7 @@ export default function DonationSection() {
                       />
                     )}
                   </FormGroup>
-                  <Link to="/karate-landing-page">
+                  <Link to="/karate-landing-page/">
                     <Btn
                       className={styles.donationSectionBtn}
                       type="submit"
@@ -225,7 +225,7 @@ export default function DonationSection() {
                 </>
               ) : (
                 <>
-                  <Link to="/karate-landing-page">
+                  <Link to="/karate-landing-page/">
                     <Btn
                       className={styles.backButton1}
                       text="Voltar"
