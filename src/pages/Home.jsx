@@ -430,7 +430,7 @@ export default function Home() {
             />
             <Donate
               className={styles.donateSection}
-              srcImage="src/styles/images/the-world-of-okinawa-karate_img08.jpg"
+              srcImage="../../src/styles/images/the-world-of-okinawa-karate_img08.jpg"
               title="FAÇA SUA DOAÇÃO"
               subtitle="Ajude-nos a fazer crescer a fortaleza, a beleza e o amor do karatê!"
               paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna risus, pharetra ut cursus sit amet, tincidunt ut erat. Sed cursus est quis nisl varius, id aliquet nisi dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam pretium iaculis nibh, et luctus tortor aliquam at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc volutpat magna non risus porta eleifend. Nullam bibendum eros nisl, quis tincidunt mi suscipit non. Fusce eu quam ac lorem dapibus viverra sit amet sed ligula. Proin velit lacus, elementum eu maximus ut, suscipit in nibh. Sed dictum porta nulla, at bibendum augue rutrum a. Morbi elementum enim quis fringilla tristique. Aliquam erat volutpat.
