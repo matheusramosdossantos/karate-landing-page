@@ -261,7 +261,7 @@ export default function Home() {
               <div className={styles.containerItem1}>
                 <Img
                   className={styles.img1}
-                  src="src\styles\images\castelo-shuri-mod.png"
+                  src="../../public/castelo-shuri-mod.png"
                   alt="Castelo Shuri, Okinawa"
                   imgText="Castelo Shuri, datado do século XV, em Okinawa."
                 >
@@ -288,7 +288,7 @@ export default function Home() {
             </Fade>
             <Img
               className={styles.oldOkinawaKarateImg}
-              src={"src/styles/images/castelo-shuri-oldkarate.jpg"}
+              src="../../public/castelo-shuri-oldkarate.jpg"
               alt={"Foto antiga do karatê de Okinawa"}
             >
               <Title className={styles.oldOkinawaKarateTitle}>
@@ -414,7 +414,7 @@ export default function Home() {
             </Fade>
             <Teachers
               className={styles.teachersSection}
-              srcImage="../../public/images/yagi-sensei-for-web.jpg"
+              srcImage="../../public/yagi-sensei-for-web.jpg"
               title="PROFESSORES"
               subtitle="Preservando a tradição do karatê"
               paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna risus, pharetra ut cursus sit amet, tincidunt ut erat. Sed cursus est quis nisl varius, id aliquet nisi dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam pretium iaculis nibh, et luctus tortor aliquam at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc volutpat magna non risus porta eleifend. Nullam bibendum eros nisl, quis tincidunt mi suscipit non. Fusce eu quam ac lorem dapibus viverra sit amet sed ligula. Proin velit lacus, elementum eu maximus ut, suscipit in nibh. Sed dictum porta nulla, at bibendum augue rutrum a. Morbi elementum enim quis fringilla tristique. Aliquam erat volutpat.
@@ -422,7 +422,7 @@ export default function Home() {
             />
             <Students
               className={styles.studentsSection}
-              srcImage="../../public/images/karate-students.jpg"
+              srcImage="../../public/karate-students.jpg"
               title="ALUNOS"
               subtitle="Da faixa branca à preta!"
               paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna risus, pharetra ut cursus sit amet, tincidunt ut erat. Sed cursus est quis nisl varius, id aliquet nisi dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam pretium iaculis nibh, et luctus tortor aliquam at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc volutpat magna non risus porta eleifend. Nullam bibendum eros nisl, quis tincidunt mi suscipit non. Fusce eu quam ac lorem dapibus viverra sit amet sed ligula. Proin velit lacus, elementum eu maximus ut, suscipit in nibh. Sed dictum porta nulla, at bibendum augue rutrum a. Morbi elementum enim quis fringilla tristique. Aliquam erat volutpat.
@@ -430,7 +430,7 @@ export default function Home() {
             />
             <Donate
               className={styles.donateSection}
-              srcImage="../../public/images/the-world-of-okinawa-karate_img08.jpg"
+              srcImage="../../public/the-world-of-okinawa-karate_img08.jpg"
               title="FAÇA SUA DOAÇÃO"
               subtitle="Ajude-nos a fazer crescer a fortaleza, a beleza e o amor do karatê!"
               paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna risus, pharetra ut cursus sit amet, tincidunt ut erat. Sed cursus est quis nisl varius, id aliquet nisi dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam pretium iaculis nibh, et luctus tortor aliquam at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc volutpat magna non risus porta eleifend. Nullam bibendum eros nisl, quis tincidunt mi suscipit non. Fusce eu quam ac lorem dapibus viverra sit amet sed ligula. Proin velit lacus, elementum eu maximus ut, suscipit in nibh. Sed dictum porta nulla, at bibendum augue rutrum a. Morbi elementum enim quis fringilla tristique. Aliquam erat volutpat.
