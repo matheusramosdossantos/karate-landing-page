@@ -4,15 +4,18 @@ import { createBrowserRouter } from "react-router-dom";
 import DonationSection from "./pages/DonationSection";
 import Home from "./pages/Home";
 
-const router = createBrowserRouter([
-  {
-    path: "/karate-landing-page/",
-    element: <Home />,
-  },
-  {
-    path: "/DonationSection",
-    element: <DonationSection />,
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: "/karate-landing-page/",
+      element: <Home />,
+    },
+    {
+      path: "/DonationSection",
+      element: <DonationSection />,
+    },
+  ],
+  { basename: import.meta.env.DEV ? "/" : "/karate-landing-page/" }
+);
 
 export default router;
