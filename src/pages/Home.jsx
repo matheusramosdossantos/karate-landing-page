@@ -261,7 +261,7 @@ export default function Home() {
               <div className={styles.containerItem1}>
                 <Img
                   className={styles.img1}
-                  src="../../public/castelo-shuri-mod.png"
+                  src="../images/castelo-shuri-mod.png"
                   alt="Castelo Shuri, Okinawa"
                   imgText="Castelo Shuri, datado do século XV, em Okinawa."
                 >

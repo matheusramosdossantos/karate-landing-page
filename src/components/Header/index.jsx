@@ -36,7 +36,7 @@ export default function Header() {
             {!isMenuVisible ? (
               <img
                 className={styles.homeLogo}
-                src="src\styles\images\Japan-Transparent-PNG.png"
+                src="../images/Japan-Transparent-PNG.png"
                 alt="Japan Logo"
               />
             ) : null}
