@@ -1,39 +1,52 @@
+@import url("../../components/Authentication/Btn/index.module.scss");
+@import url("../../components/Authentication/Form/index.module.scss");
+@import url("../../components/Authentication/Input/index.module.scss");
+@import url("../../components/Authentication/Label/index.module.scss");
 @import url("../../components/Container/index.module.scss");
 @import url("../../components/Title/index.module.scss");
 @import url("../../components/Subtitle/index.module.scss");
+@import url("../../components/CardFounder/index.module.scss");
+@import url("../../components/Header/index.module.scss");
+@import url("../../components/Img/index.module.scss");
+@import url("../../components/ContainerSection/Teachers/index.module.scss");
+@import url("../../components/ContainerSection/Students/index.module.scss");
+@import url("../../components/ContainerSection/Donate/index.module.scss");
+@import url("../../components/Ul/index.module.scss");
+@import url("../../components/Li/index.module.scss");
+@import url("../../components/Carousel/index.module.scss");
+@import url("../../components/Footer/index.module.scss");
+@import url("../../components/FAQItem/index.module.scss");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.containerItem {
+a {
+  text-decoration: none;
+}
+
+.containerItem1 {
   margin: 1rem 5rem 1rem 5rem;
 }
 
-.strongLetter {
-  color: #700000;
-  transition: 0.5s;
-  font-size: 5rem;
-  animation-name: fadein;
-  animation-duration: 2s;
+.containerItem5 {
+  padding: 1rem;
+  margin: 3rem 1rem 1rem 1rem;
+  background-color: transparent;
+  border-radius: 50px;
 }
 
-.strongLetter:hover {
-  filter: brightness(2);
-  scale: 1.1;
+.containerDonationSectionItem {
+  background-color: #404040;
+  padding: 1rem 3rem 3rem 3rem;
+  margin: 1rem 1rem 3rem 1rem;
+  border-radius: 20px;
 }
 
-@keyframes fadein {
-  from {
-    margin-left: 30%;
-    width: 300%;
-    opacity: 0%;
-  }
-  to {
-    margin-left: 3.2%;
-    width: 100%;
-    opacity: 100%;
+@media (max-width: 1450px) {
+  .containerItem1 {
+    margin: 1rem 1rem 1rem 1rem;
   }
 }
 
