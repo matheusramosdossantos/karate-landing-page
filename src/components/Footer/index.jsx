@@ -16,7 +16,7 @@ export default function Footer({ id }) {
           <a href="#">
             <Img
               className={styles.logoFooter}
-              src="public\images\Japan-Transparent-PNG.png"
+              src="images\Japan-Transparent-PNG.png"
               alt="Logo"
             />
           </a>
@@ -34,22 +34,16 @@ export default function Footer({ id }) {
           <div>
             <h1>Siga-nos!</h1>
             <a href="">
-              <Img
-                src="public\images\facebook.png"
-                className={styles.facebookIcon}
-              />
+              <Img src="images\facebook.png" className={styles.facebookIcon} />
             </a>
             <a href="">
               <Img
-                src="public\images\instagram.png"
+                src="images\instagram.png"
                 className={styles.instagramIcon}
               />
             </a>
             <a href="">
-              <Img
-                src="public\images\twitter.png"
-                className={styles.twitterIcon}
-              />
+              <Img src="images\twitter.png" className={styles.twitterIcon} />
             </a>
           </div>
         </nav>
@@ -58,7 +52,7 @@ export default function Footer({ id }) {
         <div>
           <Img
             className={styles.telephoneIcon}
-            src="public\images\telefone.png"
+            src="images\telefone.png"
             alt="Logo"
           />
           <h2>+81 98-886-2020</h2>
@@ -66,7 +60,7 @@ export default function Footer({ id }) {
         <div>
           <Img
             className={styles.emailIcon}
-            src="public\images\e-mail.png"
+            src="images\e-mail.png"
             alt="Logo"
           />
           <h2>okinawakarate@email.com</h2>
@@ -74,7 +68,7 @@ export default function Footer({ id }) {
         <div>
           <Img
             className={styles.locationIcon}
-            src="public\images\sinal-de-localizacao.png"
+            src="images\sinal-de-localizacao.png"
             alt="Logo"
           />
           <a
