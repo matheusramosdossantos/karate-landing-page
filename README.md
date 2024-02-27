@@ -46,6 +46,16 @@ FAQs will appear below the input through keywords:
 
 ![Karatê - Inscreva-se! - FAQ](https://github.com/matheusramosdossantos/karate-landing-page/assets/150397758/3b6e2f17-ff0d-48c8-92bc-0ff17d21697e)
 
+### Also this project is responsive:
+768px (Tablet):
+
+![Captura de tela 2024-02-27 104127](https://github.com/matheusramosdossantos/karate-landing-page/assets/150397758/5e1af288-7ac8-4347-9772-15ad90ee4b7b)
+
+320px (Small cellphone):
+
+![Captura de tela 2024-02-27 104157](https://github.com/matheusramosdossantos/karate-landing-page/assets/150397758/e12e86d9-216b-4828-9f9b-7b91d4977ac7)
+
+
 ## Motivations
 ### My motivations to create this application are:
 - Increase JavaScript skills;
